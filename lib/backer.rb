@@ -10,6 +10,7 @@ end
 
 def back_project(project)
   backed_projects<<Project
+  project.backers << self
 end
 
 end
