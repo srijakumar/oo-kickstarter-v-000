@@ -3,7 +3,8 @@ class Project
 
 
 
-def initialize
+def initialize(title)
+  @title = title
   @backers = []
 end
 
